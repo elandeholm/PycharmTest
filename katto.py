@@ -3,6 +3,6 @@ def en_katt(namn: str) -> str:
 
 
 if __name__ == '__main__':
-    katten = en_katt("Greta")
+    katten: str = en_katt("Greta")
     print(katten)
     # en_katt(17)
